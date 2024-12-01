@@ -1,0 +1,150 @@
+.App {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.top-section {
+    background-image: url('../assets/back.webp'); /* Replace with actual path to your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    /* Semi-transparent white background */
+    padding: 40px;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 10px;
+    color: #7b4d35;
+    gap: 20px; 
+}
+
+.hero-text {
+    flex: 1;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    
+    border-radius: 5%;
+    
+}
+
+.hero-text h2 {
+    font-size: 2.5rem;
+    color: #7b4d35;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0;
+}
+
+.date-inputs {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.date-inputs input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100px; 
+    text-align: center;
+}
+
+.date-inputs button {
+    padding: 8px 16px;
+    background-color: transparent;
+    color: #7b4d35;
+    border: 1px solid #7b4d35;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.date-inputs button:hover {
+    background-color: #7b4d35;
+    color: white;
+}
+
+.App-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem; 
+}
+.middle-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .middle-section h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .card-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+
+  .parag{
+    color: azure;
+    font-size: 24px; /* Taille de la police augmentée */
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    margin: 0;
+    padding-right: 20px; /* Un peu d'espace entre le texte et le bouton */
+  }
+  
+  .bonde{
+    display: flex; /* Utilisation de Flexbox pour aligner les éléments horizontalement */
+    justify-content: center; /* Centrage des éléments horizontalement */
+    align-items: center; /* Alignement vertical au centre */
+    height: 180px;
+    background-color: rgb(184, 127, 111);
+    margin-top: -20px;
+  }
+  
+  .btn-res{
+    background-color: rgb(184, 127, 111);
+    border-color: white;
+    color: azure;
+    height: 60px; /* Augmentation de la taille du bouton */
+    width: 180px; /* Augmentation de la largeur du bouton */
+    font-size: 18px; /* Augmentation de la taille de la police du bouton */
+    font-family: initial;
+    border-radius: 5px;
+  }
+  
+  .btn-res:hover{
+    background-color: azure;
+    color: rgb(184, 127, 111);
+  }
+  

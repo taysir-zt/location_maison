@@ -1,0 +1,31 @@
+.login-gradient-custom-2 {
+  background: #84fab0;
+  background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+  background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+  }
+  
+  @media (min-width: 768px) {
+    .login-gradient-form {
+      height: 100vh !important;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .login-gradient-custom-2 {
+      border-top-right-radius: .3rem;
+      border-bottom-right-radius: .3rem;
+    }
+  }
+  .btn-login-large {
+    padding: 12px 30px; 
+    font-size: 18px;    
+    width: 60%;        
+    
+  }
+  .btn-login-lam{
+    border-color: #03461b;
+    color: #03461b;
+    
+    
+  }
+  

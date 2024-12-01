@@ -1,0 +1,129 @@
+/* Pour chaque carte */
+.gradient-brand-color{
+    background: #84fab0;
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+    max-width: 50%;
+}
+.button-group button {
+    font-size: 1rem; /* Uniformiser la taille de texte */
+    border-radius: 5px; /* Coins légèrement arrondis */
+}
+
+.button-group .btn-secondary,
+.button-group .btn-danger {
+    background-color:rgb(237, 185, 142);
+    max-width: 40%;
+}
+
+.container-homelist{
+    padding: 10px;
+}
+
+.card-homelist {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 350px;
+    min-height: 400px; /* Ajustez selon le contenu moyen */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-top: 10px;
+}
+
+.card-homelist:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Image dans chaque carte */
+.card-img-top {
+    width: 100%;
+    height: 200px; /* Fixer une hauteur cohérente */
+    object-fit: cover; /* Assure que l'image est recadrée pour remplir l'espace */
+    border-radius: 0; /* Désactiver les coins arrondis si nécessaires */
+}
+
+/* Contenu des cartes */
+.card-body-homelist {
+    padding: 10px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-title-homelist {
+    text-align: center; 
+    font-size: 1.25rem;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.card-text-homelist {
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: #777;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    flex-grow: 1; 
+}
+.house-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px ;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 50px;
+}
+.slider-container-res {
+    width: 100%; /* Largeur du conteneur */
+    height: 300px; /* Hauteur fixe pour toutes les cartes */
+    position: relative;
+    overflow: hidden; /* Empêche tout débordement des images */
+}
+.slider-container-res img{
+    width: 100%;
+    max-height: 250px;
+}
+.slider-container-res img, 
+.card-img-top {
+    width: 100%; /* L'image prend toute la largeur */
+    height: 200px; /* Hauteur cohérente pour toutes les cartes */
+    object-fit: cover; /* L'image est recadrée sans être déformée */
+    border-radius: 0; /* Pas de coins arrondis */
+}
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    opacity: 0.8;
+    z-index: 2;
+}
+
+.arrow:hover {
+    opacity: 1;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.image-slide-homelist img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}

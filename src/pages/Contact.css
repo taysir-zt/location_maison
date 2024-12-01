@@ -1,0 +1,17 @@
+.containerc{
+    width: 100%;
+}
+.gradient-brand-color-contact{
+    background: #84fab0;
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+}
+.btn-contact-large-contact{
+    font-size: 18px;    
+    width: 30%;   
+    
+}
+.btn-contact-lam{
+    border-color: #03461b;
+    color: #03461b;
+}
